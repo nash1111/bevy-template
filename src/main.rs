@@ -14,7 +14,7 @@ use spaceship::SpaceshipPlugin;
 fn main() {
     App::new()
         // make scene bright with bevy built-in
-        .insert_resource(ClearColor(Color::rgb(0.1, 0.9, 0.15)))
+        .insert_resource(ClearColor(Color::rgb(0.1, 0.0, 0.85)))
         .insert_resource(AmbientLight {
             color: Color::default(),
             brightness: 0.7,
